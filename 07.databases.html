@@ -886,7 +886,7 @@ echo '&lt;/pre&gt;';</code></pre>
 						<h2>Fetching a single row</h2>
 						<ul>
 							<li class="fragment">
-								Use <code>PDOStatement::fetch()</code><small><a href="http://www.php.net/manual/en/pdostatement.fetch.php">&#9873;</a></small> to fetch the returned rows one bye one
+								Use <code>PDOStatement::fetch()</code><small><a href="http://www.php.net/manual/en/pdostatement.fetch.php">&#9873;</a></small> to fetch the returned rows one by one
 								<div class="fragment">
 									<pre class="bigger"><code class="language-php" data-overlay-example="assets/07/examples/05c.php">$stmt =$db->prepare('SELECT * FROM collections WHERE user_id = ? OR name = ?');
 $stmt->execute(array(2, 'russia'));
